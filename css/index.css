@@ -1,0 +1,265 @@
+@charset "UTF-8";
+@import url("common.css");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;700;900&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&family=Gowun+Batang:wght@700&family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;700;900&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&family=Gowun+Batang:wght@700&family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;700;900&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&family=Gowun+Batang:wght@700&family=Gowun+Dodum&family=Heebo:wght@800&family=Mukta:wght@700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;700;900&family=Nunito+Sans:wght@200;300;400&family=Oswald:wght@600&family=Playfair+Display:wght@400;600&family=Song+Myung&display=swap');
+main {
+ 
+}
+
+.main1 {
+    overflow: hidden;
+}
+.main1 > div {
+    color: white;
+}
+.main1 > div > h2 {
+    font-size: 60px;
+    transform: translate(-2%, -30%);
+}
+.main1 > div > p {
+    font-size: 30px;
+}
+.main1 > p {
+}
+.main1 > p > img {
+    width: 100%;
+}
+
+header > div {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.main1 > p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main1 > div {
+    position: absolute;
+    left: 18%;
+    top: 25%;
+
+    z-index: 2;
+}
+
+.main2 {
+    overflow: hidden;
+    padding-top: 1100px;
+    align-items: center;
+    text-align: center;
+    width: 1607px;
+    margin: 0 auto;
+    padding-bottom: 220px;
+}
+.main2 > h2 {
+    font-size: 23px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.main2 > div {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+   
+}
+.main2 figure figcaption {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    transition: 0.5s;
+}
+.main2 figure {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.397);
+} /*?????????????????????*/
+
+.main2 figure a {
+    position: relative;
+}
+
+.main2 figure a img {
+  vertical-align: middle;
+    transition: 0.5s;
+}
+
+
+
+/*hover-------------------------------------------------*/
+.main2 > div > figure:nth-child(1):hover > a > img {
+    transform: scale(1.1);
+}
+
+.main2 > div > figure:nth-child(1):hover > figcaption {
+    transform: scale(1.1);
+}
+.main2 > div > figure:nth-child(2):hover > a > img {
+    transform: scale(1.1);
+}
+.main2 > div > figure:nth-child(2):hover > figcaption {
+    transform: scale(1.1);
+}
+.main2 > div > figure:nth-child(3):hover > a > img {
+    transform: scale(1.1);
+}
+.main2 > div > figure:nth-child(3):hover > figcaption {
+    transform: scale(1.1);
+}
+.main2 > div > figure:nth-child(4):hover > a > img {
+    transform: scale(1.1);
+}
+.main2 > div > figure:nth-child(4):hover > figcaption {
+    transform: scale(1.1);
+}
+
+/*hover-------------------------------------------------*/
+
+/* .main2 > div > figure:nth-child(1) > figcaption {
+    transform: translate(60px, 30px);
+}
+.main2 > div > figure:nth-child(2) > figcaption {
+    transform: translate(70px, 20px);
+}
+.main2 > div > figure:nth-child(3) > figcaption {
+    transform: translate(65px, 20px);
+}
+.main2 > div > figure:nth-child(4) > figcaption {
+    transform: translate(100px, 20px);
+} */
+
+main > div > iframe {
+    vertical-align: top;
+}
+
+.main3 {
+    background-color: #0a1331;
+}
+
+footer {
+    background-color: #0a1331;
+}
+
+.main3 {
+    overflow: hidden;
+}
+.main3 > h2 {
+    font-size: 180px;
+    color: #bdbdbd54;
+   
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+
+    white-space: nowrap; /*텍스트 줄바꿈 안되게*/
+    font-family: 'Gowun Batang', serif;
+    opacity: 35%;
+ 
+}
+
+.main3 > h2 {
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+   
+}
+
+@keyframes slidein {
+    0% {
+        
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-1500px);
+    }
+}
+
+.deco {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    opacity: 20%;
+    
+    position: absolute;
+    left: 0%; top: 300%;
+    z-index: 2;
+}
+.deco > img {
+ 
+}
+.deco > img:nth-child(1) {
+    transform: rotate(90deg) translate(160%, 20%);
+}
+.deco > img:nth-child(2) {
+    transform: scaleY(-1) scaleX(-1) rotate(90deg) translate(-50%, 217%);
+}
+.deco > img:nth-child(3) {
+    transform: translate(90%, 94%);
+}
+
+.slide {
+   
+    position: relative;
+   
+    background-color: #0a1331;
+font-size: 0;
+width: 100%;
+  
+    /* transform: translate(0, -400px); */
+}
+
+.slide>div{
+    width: 1607px;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 auto;
+}
+.slide>div>img{
+    border-radius: 40px;
+    box-shadow: 5px 5px 15px rgba(172, 171, 171, 0.466);
+}
+
+.slide >div> p {
+    font-size: 24px;
+    color: white;
+   
+    line-height: 60px;
+    text-align: left;
+    /* align-items: center; */
+    font-family: 'Gowun Dodum', sans-serif;
+    margin-top: 5%;
+}
+
+
+
+.top-btn {
+    background-color: #0c173b;
+    font-size: 0;
+}
+.top-btn > p {
+}
+.top-btn > p > span {
+}
+.top-btn > p > span > a {
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.top-btn > p > span > a > img {
+    position: fixed;
+    bottom: 30%;
+    right: 10%;
+}
